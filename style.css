@@ -1,7 +1,4 @@
-/* =========================
-   GENERAL SETTINGS
-========================= */
-
+```css
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +10,6 @@ body {
     min-height: 100vh;
     color: white;
 }
-
-
-/* =========================
-   BACKGROUND
-========================= */
 
 #background {
     background-image: url("sophie-turner-LZVmvKlchM0-unsplash.jpg");
@@ -48,21 +40,11 @@ body {
     z-index: -1;
 }
 
-
-/* =========================
-   MAIN CONTAINER
-========================= */
-
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
 }
-
-
-/* =========================
-   NAVBAR
-========================= */
 
 .navbar {
     display: flex;
@@ -94,11 +76,6 @@ body {
     color: black;
 }
 
-
-/* =========================
-   PRODUCT CARD
-========================= */
-
 .product-card {
     display: flex;
 
@@ -118,11 +95,6 @@ body {
 
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
-
-
-/* =========================
-   PRODUCT IMAGE
-========================= */
 
 .product-image {
     width: 45%;
@@ -150,11 +122,6 @@ body {
 .product-image:hover .shoe-icon {
     transform: rotate(0deg) scale(1.1);
 }
-
-
-/* =========================
-   PRODUCT INFORMATION
-========================= */
 
 .product-info {
     width: 55%;
@@ -188,11 +155,6 @@ body {
     margin-bottom: 20px;
 }
 
-
-/* =========================
-   RATING
-========================= */
-
 .rating {
     color: #ffd700;
 
@@ -208,11 +170,6 @@ body {
 
     margin-left: 10px;
 }
-
-
-/* =========================
-   PRICE
-========================= */
 
 .price-section {
     display: flex;
@@ -235,11 +192,6 @@ body {
     font-weight: bold;
 }
 
-
-/* =========================
-   DELIVERY
-========================= */
-
 .delivery {
     color: #ffd700;
 
@@ -247,11 +199,6 @@ body {
 
     font-size: 15px;
 }
-
-
-/* =========================
-   BUTTONS
-========================= */
 
 .buttons {
     display: flex;
@@ -277,9 +224,6 @@ body {
     transition: 0.3s;
 }
 
-
-/* Add to Cart */
-
 .cart {
     background-color: white;
 
@@ -295,9 +239,6 @@ body {
 
     transform: translateY(-3px);
 }
-
-
-/* Buy Now */
 
 .buy {
     display: flex;
@@ -321,11 +262,6 @@ body {
     transform: translateY(-3px);
 }
 
-
-/* =========================
-   RETURN BUTTON
-========================= */
-
 .return {
     color: #dddddd;
 
@@ -342,11 +278,6 @@ body {
     padding-left: 5px;
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
 footer {
     text-align: center;
 
@@ -358,11 +289,6 @@ footer {
 
     line-height: 1.8;
 }
-
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
 
 @media (max-width: 800px) {
 
@@ -416,11 +342,6 @@ footer {
     }
 }
 
-
-/* =========================
-   SMALL PHONES
-========================= */
-
 @media (max-width: 450px) {
 
     .container {
@@ -444,3 +365,4 @@ footer {
         font-size: 90px;
     }
 }
+```
